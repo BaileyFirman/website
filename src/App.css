@@ -100,16 +100,10 @@ h3 {
   width: 100%;
 }
 
-.about-container {
-  margin: 0em 1em;
-}
-
-.about-main-heading {
-  color: black;
-}
-
 .projects-container {
   margin: 0em 1em;
+  display: flex;
+  flex-direction: column;
 }
 
 .projects-main-heading {

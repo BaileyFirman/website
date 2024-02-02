@@ -1,0 +1,19 @@
+.about-container {
+  margin: 0em 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-main-heading {
+  color: black;
+  margin: 0em;
+}
+
+.about-main-content {
+  color: black;
+  margin: 0em;
+}
+
+.about-experience-list {
+  color: black;
+}
