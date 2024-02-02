@@ -99,3 +99,19 @@ h3 {
   padding: 2px 0px;
   width: 100%;
 }
+
+.about-container {
+  margin: 0em 1em;
+}
+
+.about-main-heading {
+  color: black;
+}
+
+.projects-container {
+  margin: 0em 1em;
+}
+
+.projects-main-heading {
+  color: black;
+}
