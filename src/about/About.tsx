@@ -14,6 +14,9 @@ function About() {
         <li>MSTRPCE.IO</li>
         <></>
       </ul>
+      <a href="/public/2024.pdf">
+        <p className="about-main-content">CV</p>
+      </a>
     </div>
   );
 }
