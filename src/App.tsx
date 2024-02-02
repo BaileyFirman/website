@@ -20,6 +20,8 @@ function App() {
           >
             projects
           </h3>
+          <h3 className="app-sub-heading-extras">extras</h3>
+          <h3 className="app-sub-heading-github">github</h3>
         </div>
       </div>
     </>

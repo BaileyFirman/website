@@ -83,6 +83,16 @@ h3 {
   color: #ff006e;
 }
 
+.app-sub-heading-extras:hover {
+  cursor: pointer;
+  color: #8338ec;
+}
+
+.app-sub-heading-github:hover {
+  cursor: pointer;
+  color: #3a86ff;
+}
+
 .five-colors-background {
   background: linear-gradient(to right, #ffbe0b 20%, #fb5607 20% 40%, #ff006e 40% 60%, #8338ec 60% 80%, #3a86ff 80%);
   display: inline-block;
