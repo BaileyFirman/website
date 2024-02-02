@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import { useState } from "react";
 import "./App.css";
 
@@ -10,7 +9,7 @@ function App() {
       <div className="app-container">
         <div className="app-header">
           <h1 className="app-main-heading">bfirman.io</h1>
-          <span className="five-colors-background" />
+          {/* <span className="five-colors-background" /> */}
         </div>
         <div className="app-body">
           <h3 className="app-sub-heading-about">about</h3>

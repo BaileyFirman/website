@@ -32,8 +32,36 @@ h3 {
   max-width: min-content;
 }
 
+@keyframes move-bg {
+  to {
+    background-position: var(--bg-size) 0;
+  }
+}
+
 .app-main-heading {
-  margin-bottom: -6px;
+  margin-bottom: 0px;
+  --bg-size: 400%;
+  --color-one: #ffbe0b;
+  --color-two: #fb5607;
+  --color-three: #ff006e;
+  --color-four: #8338ec;
+  --color-five: #3a86ff;
+  background: linear-gradient(
+    90deg,
+    var(--color-one),
+    var(--color-two),
+    var(--color-three),
+    var(--color-four),
+    var(--color-five),
+    var(--color-four),
+    var(--color-three),
+    var(--color-two),
+    var(--color-one)
+  ) 0 0 / var(--bg-size) 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: move-bg 8s infinite linear;
 }
 
 .app-body {
